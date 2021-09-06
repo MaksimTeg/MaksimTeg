@@ -13,7 +13,7 @@ class CommentsContainer extends React.Component {
 		}
 		this.props.getCommentsProfile(userId)
 	}
-
+	// problems with url
 	render() {
 		return (
 			<>

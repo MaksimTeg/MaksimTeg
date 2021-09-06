@@ -23,7 +23,7 @@ export const profileAPI = {
 		return response.data
 	},
 }
-
+// comments
 export const commentsAPI = {
 	async getCommentsData(userId) {
 		const response = await instance.get(`posts/${userId}/comments`)
