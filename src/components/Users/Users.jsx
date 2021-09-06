@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Users.module.css'
 import userDefaultAvatar from '../../assets/images/default-avatar-icon.png'
 import { NavLink } from 'react-router-dom'
-	
+
 let Users = props => {
 	let usersElements = props.users.map(u => {
 		return (
@@ -16,7 +16,7 @@ let Users = props => {
 				<div>{u.title} </div>
 				<div>{u.body} </div>
 				<div>
-					<NavLink to={'/posts/'+ u.id +'/commets'}>
+					<NavLink to={'/posts/' + u.id + '/comments'}>
 						<button>Comments</button>
 					</NavLink>
 				</div>
